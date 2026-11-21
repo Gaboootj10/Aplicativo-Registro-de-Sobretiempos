@@ -1,0 +1,15 @@
+; Configuración del aplicativo Registro de Sobretiempos
+; Copie este archivo como config.ini o configure la conexión desde el
+; aplicativo (botón "Conexión" de la barra lateral).
+[mysql]
+host = localhost
+port = 3306
+user = root
+password =
+database = sobretiempos
+
+[herramientas]
+; Si se deja vacío, el aplicativo busca mysqldump.exe y mysql.exe en
+; C:\Program Files\MySQL\MySQL Server 8.0\bin
+mysqldump =
+mysql =

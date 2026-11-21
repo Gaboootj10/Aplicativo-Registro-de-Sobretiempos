@@ -1,0 +1,20 @@
+# Configuración local (contiene la contraseña de MySQL)
+config.ini
+
+# Compilación
+build/
+dist/
+*.spec
+instalador/salida/
+
+# Python
+__pycache__/
+*.pyc
+
+# Respaldos y archivos de la entrega anterior
+respaldos/
+evidencias/
+sql/
+
+# Office
+~$*
